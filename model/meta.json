@@ -1,0 +1,179 @@
+{
+ "model": "model/sonar-yolo26n.onnx",
+ "imgsz": 416,
+ "classes": [
+  "fish",
+  "human",
+  "plane",
+  "ship",
+  "boat",
+  "tire",
+  "bottle",
+  "can",
+  "cube",
+  "ball",
+  "cylinder",
+  "cage",
+  "bucket",
+  "rov",
+  "chain",
+  "hook",
+  "propeller",
+  "valve",
+  "drink_carton",
+  "mine",
+  "wall",
+  "other_debris",
+  "crab_pot",
+  "pipeline",
+  "non_mine_object"
+ ],
+ "params_m": 2.5,
+ "train_images": 5876,
+ "epochs": 15,
+ "metrics": {
+  "overall": {
+   "map50": 0.706,
+   "precision": 0.681,
+   "recall": 0.691,
+   "map50_95": 0.385,
+   "images": 8566,
+   "boxes": 28305
+  },
+  "per_class": {
+   "fish": {
+    "map50": 0.463,
+    "precision": 0.586,
+    "recall": 0.435,
+    "boxes": 24890
+   },
+   "human": {
+    "map50": 0.785,
+    "precision": 0.778,
+    "recall": 0.704,
+    "boxes": 494
+   },
+   "plane": {
+    "map50": 0.962,
+    "precision": 0.87,
+    "recall": 0.945,
+    "boxes": 348
+   },
+   "ship": {
+    "map50": 0.337,
+    "precision": 0.388,
+    "recall": 0.38,
+    "boxes": 689
+   },
+   "boat": {
+    "map50": 0.96,
+    "precision": 0.882,
+    "recall": 0.932,
+    "boxes": 103
+   },
+   "tire": {
+    "map50": 0.896,
+    "precision": 0.846,
+    "recall": 0.82,
+    "boxes": 172
+   },
+   "bottle": {
+    "map50": 0.995,
+    "precision": 0.928,
+    "recall": 1.0,
+    "boxes": 84
+   },
+   "can": {
+    "map50": 0.991,
+    "precision": 0.954,
+    "recall": 0.962,
+    "boxes": 65
+   },
+   "cube": {
+    "map50": 0.446,
+    "precision": 0.536,
+    "recall": 0.649,
+    "boxes": 168
+   },
+   "ball": {
+    "map50": 0.857,
+    "precision": 0.707,
+    "recall": 0.886,
+    "boxes": 193
+   },
+   "cylinder": {
+    "map50": 0.691,
+    "precision": 0.742,
+    "recall": 0.6,
+    "boxes": 45
+   },
+   "cage": {
+    "map50": 0.657,
+    "precision": 0.74,
+    "recall": 0.539,
+    "boxes": 267
+   },
+   "bucket": {
+    "map50": 0.624,
+    "precision": 0.5,
+    "recall": 0.4,
+    "boxes": 5
+   },
+   "rov": {
+    "map50": 0.819,
+    "precision": 0.772,
+    "recall": 0.772,
+    "boxes": 149
+   },
+   "chain": {
+    "map50": 0.53,
+    "precision": 0.29,
+    "recall": 0.871,
+    "boxes": 31
+   },
+   "hook": {
+    "map50": 0.982,
+    "precision": 0.869,
+    "recall": 0.963,
+    "boxes": 27
+   },
+   "propeller": {
+    "map50": 0.995,
+    "precision": 0.778,
+    "recall": 1.0,
+    "boxes": 20
+   },
+   "valve": {
+    "map50": 0.995,
+    "precision": 0.936,
+    "recall": 1.0,
+    "boxes": 23
+   },
+   "drink_carton": {
+    "map50": 0.981,
+    "precision": 0.917,
+    "recall": 0.945,
+    "boxes": 55
+   },
+   "mine": {
+    "map50": 0.171,
+    "precision": 0.337,
+    "recall": 0.122,
+    "boxes": 82
+   },
+   "crab_pot": {
+    "map50": 0.303,
+    "precision": 0.46,
+    "recall": 0.214,
+    "boxes": 350
+   },
+   "non_mine_object": {
+    "map50": 0.084,
+    "precision": 0.166,
+    "recall": 0.067,
+    "boxes": 45
+   }
+  }
+ },
+ "note": "This is a quick demo model trained on a CPU; a longer run on the full dataset would score higher."
+}

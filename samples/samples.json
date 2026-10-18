@@ -1,0 +1,239 @@
+[
+ {
+  "file": "uatd_1.jpg",
+  "label": "cage / tire",
+  "source": "UATD (FLS)",
+  "license": "CC-BY-4.0",
+  "boxes": [
+   [
+    "tire",
+    443.3,
+    636.2,
+    503.0,
+    701.8
+   ],
+   [
+    "cage",
+    378.5,
+    519.9,
+    430.0,
+    573.0
+   ]
+  ]
+ },
+ {
+  "file": "uatd_2.jpg",
+  "label": "human",
+  "source": "UATD (FLS)",
+  "license": "CC-BY-4.0",
+  "boxes": [
+   [
+    "human",
+    422.3,
+    461.2,
+    488.1,
+    516.0
+   ]
+  ]
+ },
+ {
+  "file": "uatd_3.jpg",
+  "label": "rov",
+  "source": "UATD (FLS)",
+  "license": "CC-BY-4.0",
+  "boxes": [
+   [
+    "rov",
+    514.7,
+    239.5,
+    548.9,
+    264.8
+   ]
+  ]
+ },
+ {
+  "file": "cfc_1.jpg",
+  "label": "fish",
+  "source": "Caltech fish (ARIS)",
+  "license": "MIT",
+  "boxes": [
+   [
+    "fish",
+    222.2,
+    759.8,
+    301.5,
+    783.2
+   ],
+   [
+    "fish",
+    115.7,
+    814.9,
+    204.4,
+    833.6
+   ],
+   [
+    "fish",
+    430.9,
+    637.7,
+    510.5,
+    655.3
+   ],
+   [
+    "fish",
+    528.3,
+    343.5,
+    613.3,
+    363.1
+   ]
+  ]
+ },
+ {
+  "file": "cfc_2.jpg",
+  "label": "fish",
+  "source": "Caltech fish (ARIS)",
+  "license": "MIT",
+  "boxes": [
+   [
+    "fish",
+    5.9,
+    10.5,
+    80.5,
+    34.1
+   ]
+  ]
+ },
+ {
+  "file": "ai4shipwrecks_1.jpg",
+  "label": "ship",
+  "source": "AI4Shipwrecks (SSS)",
+  "license": "CC-BY-4.0",
+  "boxes": [
+   [
+    "ship",
+    617.0,
+    526.0,
+    1023.0,
+    1024.0
+   ]
+  ]
+ },
+ {
+  "file": "ai4shipwrecks_2.jpg",
+  "label": "ship",
+  "source": "AI4Shipwrecks (SSS)",
+  "license": "CC-BY-4.0",
+  "boxes": [
+   [
+    "ship",
+    386.0,
+    994.0,
+    471.0,
+    1024.0
+   ]
+  ]
+ },
+ {
+  "file": "milco_1.jpg",
+  "label": "mine",
+  "source": "MILCO mines (SSS)",
+  "license": "CC-BY-4.0",
+  "boxes": [
+   [
+    "mine",
+    313.8,
+    43.8,
+    328.3,
+    60.2
+   ],
+   [
+    "mine",
+    279.8,
+    202.5,
+    296.3,
+    219.5
+   ],
+   [
+    "mine",
+    331.3,
+    377.2,
+    347.8,
+    397.7
+   ]
+  ]
+ },
+ {
+  "file": "milco_2.jpg",
+  "label": "mine",
+  "source": "MILCO mines (SSS)",
+  "license": "CC-BY-4.0",
+  "boxes": [
+   [
+    "mine",
+    372.0,
+    242.0,
+    410.0,
+    273.0
+   ]
+  ]
+ },
+ {
+  "file": "aquascan_1.jpg",
+  "label": "human",
+  "source": "AquaScan (SSS)",
+  "license": "MIT",
+  "boxes": [
+   [
+    "human",
+    285.0,
+    118.8,
+    335.5,
+    136.9
+   ]
+  ]
+ },
+ {
+  "file": "aquascan_2.jpg",
+  "label": "human",
+  "source": "AquaScan (SSS)",
+  "license": "MIT",
+  "boxes": [
+   [
+    "human",
+    807.2,
+    191.1,
+    890.1,
+    198.9
+   ]
+  ]
+ },
+ {
+  "file": "ghostvision_1.jpg",
+  "label": "crab_pot",
+  "source": "GhostVision (SSS)",
+  "license": "CC-BY-SA-4.0",
+  "boxes": [
+   [
+    "crab_pot",
+    281.0,
+    308.0,
+    356.2,
+    389.8
+   ]
+  ]
+ },
+ {
+  "file": "ghostvision_2.jpg",
+  "label": "crab_pot",
+  "source": "GhostVision (SSS)",
+  "license": "CC-BY-SA-4.0",
+  "boxes": [
+   [
+    "crab_pot",
+    236.0,
+    200.0,
+    264.2,
+    217.5
+   ]
+  ]
+ }
+]
