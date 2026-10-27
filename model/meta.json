@@ -1,5 +1,5 @@
 {
- "model": "model/sonar-yolo26n.onnx",
+ "model": "model/sonar-yolo26s.onnx",
  "imgsz": 416,
  "classes": [
   "fish",
@@ -28,152 +28,153 @@
   "pipeline",
   "non_mine_object"
  ],
- "params_m": 2.5,
- "train_images": 5876,
- "epochs": 15,
+ "params_m": 9.5,
+ "train_images": 24553,
+ "epochs": 92,
  "metrics": {
   "overall": {
-   "map50": 0.706,
-   "precision": 0.681,
-   "recall": 0.691,
-   "map50_95": 0.385,
+   "map50": 0.8,
+   "map50_95": 0.503,
+   "precision": 0.837,
+   "recall": 0.804,
    "images": 8566,
    "boxes": 28305
   },
   "per_class": {
    "fish": {
-    "map50": 0.463,
-    "precision": 0.586,
-    "recall": 0.435,
+    "map50": 0.734,
+    "precision": 0.74,
+    "recall": 0.718,
     "boxes": 24890
    },
    "human": {
-    "map50": 0.785,
-    "precision": 0.778,
-    "recall": 0.704,
+    "map50": 0.838,
+    "precision": 0.827,
+    "recall": 0.773,
     "boxes": 494
    },
    "plane": {
-    "map50": 0.962,
-    "precision": 0.87,
-    "recall": 0.945,
+    "map50": 0.985,
+    "precision": 0.974,
+    "recall": 0.978,
     "boxes": 348
    },
    "ship": {
-    "map50": 0.337,
-    "precision": 0.388,
-    "recall": 0.38,
+    "map50": 0.329,
+    "precision": 0.693,
+    "recall": 0.292,
     "boxes": 689
    },
    "boat": {
-    "map50": 0.96,
-    "precision": 0.882,
-    "recall": 0.932,
+    "map50": 0.924,
+    "precision": 0.973,
+    "recall": 0.922,
     "boxes": 103
    },
    "tire": {
-    "map50": 0.896,
-    "precision": 0.846,
-    "recall": 0.82,
+    "map50": 0.929,
+    "precision": 0.947,
+    "recall": 0.895,
     "boxes": 172
    },
    "bottle": {
-    "map50": 0.995,
-    "precision": 0.928,
+    "map50": 0.993,
+    "precision": 0.98,
     "recall": 1.0,
     "boxes": 84
    },
    "can": {
-    "map50": 0.991,
-    "precision": 0.954,
-    "recall": 0.962,
+    "map50": 0.995,
+    "precision": 0.988,
+    "recall": 1.0,
     "boxes": 65
    },
    "cube": {
-    "map50": 0.446,
-    "precision": 0.536,
-    "recall": 0.649,
+    "map50": 0.645,
+    "precision": 0.644,
+    "recall": 0.881,
     "boxes": 168
    },
    "ball": {
-    "map50": 0.857,
-    "precision": 0.707,
+    "map50": 0.803,
+    "precision": 0.754,
     "recall": 0.886,
     "boxes": 193
    },
    "cylinder": {
-    "map50": 0.691,
-    "precision": 0.742,
-    "recall": 0.6,
+    "map50": 0.929,
+    "precision": 0.844,
+    "recall": 0.933,
     "boxes": 45
    },
    "cage": {
-    "map50": 0.657,
-    "precision": 0.74,
-    "recall": 0.539,
+    "map50": 0.62,
+    "precision": 0.798,
+    "recall": 0.592,
     "boxes": 267
    },
    "bucket": {
-    "map50": 0.624,
-    "precision": 0.5,
-    "recall": 0.4,
+    "map50": 0.995,
+    "precision": 0.874,
+    "recall": 1.0,
     "boxes": 5
    },
    "rov": {
-    "map50": 0.819,
-    "precision": 0.772,
-    "recall": 0.772,
+    "map50": 0.988,
+    "precision": 0.953,
+    "recall": 0.973,
     "boxes": 149
    },
    "chain": {
-    "map50": 0.53,
-    "precision": 0.29,
-    "recall": 0.871,
+    "map50": 0.957,
+    "precision": 0.841,
+    "recall": 1.0,
     "boxes": 31
    },
    "hook": {
-    "map50": 0.982,
-    "precision": 0.869,
-    "recall": 0.963,
+    "map50": 0.995,
+    "precision": 0.972,
+    "recall": 1.0,
     "boxes": 27
    },
    "propeller": {
     "map50": 0.995,
-    "precision": 0.778,
+    "precision": 0.964,
     "recall": 1.0,
     "boxes": 20
    },
    "valve": {
     "map50": 0.995,
-    "precision": 0.936,
+    "precision": 0.968,
     "recall": 1.0,
     "boxes": 23
    },
    "drink_carton": {
-    "map50": 0.981,
-    "precision": 0.917,
-    "recall": 0.945,
+    "map50": 0.995,
+    "precision": 0.986,
+    "recall": 1.0,
     "boxes": 55
    },
    "mine": {
-    "map50": 0.171,
-    "precision": 0.337,
-    "recall": 0.122,
+    "map50": 0.376,
+    "precision": 0.772,
+    "recall": 0.293,
     "boxes": 82
    },
    "crab_pot": {
-    "map50": 0.303,
-    "precision": 0.46,
-    "recall": 0.214,
+    "map50": 0.33,
+    "precision": 0.433,
+    "recall": 0.32,
     "boxes": 350
    },
    "non_mine_object": {
-    "map50": 0.084,
-    "precision": 0.166,
-    "recall": 0.067,
+    "map50": 0.241,
+    "precision": 0.489,
+    "recall": 0.234,
     "boxes": 45
    }
   }
  },
- "note": "This is a quick demo model trained on a CPU; a longer run on the full dataset would score higher."
+ "note": "Trained on two Kaggle T4 GPUs at 640 px (best epoch 77, early-stopped at 92); the scores above are measured at the page's 416 px input. At 640 px the same model scores mAP50 0.811.",
+ "arch": "YOLO26s"
 }

@@ -1,4 +1,4 @@
-// Sonar Object Detector: runs a YOLO26n ONNX model in the browser with onnxruntime-web.
+// Sonar Object Detector: runs a YOLO26s ONNX model in the browser with onnxruntime-web.
 // The model is exported with NMS built in: output [1, 300, 6] = x1, y1, x2, y2, score, class
 // in letterboxed input pixels.
 
@@ -191,7 +191,7 @@ function renderModelInfo() {
   const o = m.overall || {};
   el("n-classes").textContent = meta.classes.length;
   el("model-blurb").textContent =
-    `YOLO26n (${meta.params_m}M parameters), input ${meta.imgsz}px, trained on ${meta.train_images.toLocaleString()} sonar images ` +
+    `${meta.arch || "YOLO26n"} (${meta.params_m}M parameters), input ${meta.imgsz}px, trained on ${meta.train_images.toLocaleString()} sonar images ` +
     `for ${meta.epochs} epochs. On ${(o.images || 0).toLocaleString()} held-out test images it scores mAP50 ${fmt(o.map50)} ` +
     `(precision ${fmt(o.precision)}, recall ${fmt(o.recall)}). ${meta.note || ""}`;
   const tbody = el("metric-table").querySelector("tbody");
